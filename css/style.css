@@ -1,0 +1,58 @@
+body {
+  background-color: #a8bf7e;
+}
+.main {
+  width: 450px;
+  height: 480px;
+  background-color: #a0d0ea;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+#screen {
+  background-color: #f1fbeb;
+  width: 90%;
+  height: 17%;
+  box-shadow: 0 10px 2px -2px #80a5ba;
+  margin-right: 4%;
+  margin-left: 4%;
+  font-size: xx-large;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.number {
+  width: 92%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+  height: 75%;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 20px;
+}
+.number > div {
+  box-shadow: 0 10px 2px -2px #80a5ba;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 22%;
+}
+.number>div:not(.ope,.c){
+  background-color: #efefef;
+}
+.c {
+  background-color: #f9a1ac !important;
+}
+.ope {
+  background-color: #efff93 !important;
+}
+.but:hover{
+cursor: pointer;
+transform: scale(1.03);
+}
+#equal:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
